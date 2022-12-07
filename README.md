@@ -1,0 +1,1 @@
+This project has my own setup of Vite Vue3 app with TS, Tailwind, Pinia, Router.
