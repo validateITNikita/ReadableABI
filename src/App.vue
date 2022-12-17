@@ -1,42 +1,29 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <div class="bg-[#2e2e2e] text-[#f5f5f5] uppercase">
-    TEXT TO TEST
+  <div>
+    <a href="https://vitejs.dev" target="_blank">
+      <img src="/vite.svg" class="logo" alt="Vite logo" />
+    </a>
+    <a href="https://vuejs.org/" target="_blank">
+      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
+    </a>
   </div>
-
-  <RouterView />
+  <HelloWorld msg="Vite + Vue" />
 </template>
 
-<style>
-*, *::before, *::after{
-  box-sizing: border-box;
+<style scoped>
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
 }
-
-* {
-  margin: 0;
-  padding: 0;
-  font: inherit;
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
 }
-
-body {
-  min-height: 100vh;
+.logo.vue:hover {
+  filter: drop-shadow(0 0 2em #42b883aa);
 }
-
-html {
-  color-scheme: dark light;
-}
-
-img, picture, svg, video {
-  display: block;
-  max-width: 100%;
-}
-
-input, textarea, button, select {
-  font: inherit;
-}
-
-
 </style>
