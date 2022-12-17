@@ -1,1 +1,1 @@
-This project has my own setup of Vite Vue3 app with TS, Tailwind, Pinia, Router.
+This tool allows you to easily convert ABI to readable ABI!
