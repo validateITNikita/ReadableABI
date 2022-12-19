@@ -24,7 +24,7 @@ const areaStyle = "block p-2.5 w-full h-full text-lg text-gray-900 bg-gray-50 ro
       placeholder="Paste your ABI here!"
       ref="notread"
       />
-      <button @click="convert">CLICK</button>
+      <button @click="convert" class="text-white">CLICK</button>
     <textarea 
       :class="areaStyle"
       placeholder="Copy your ABI from here!"
